@@ -33,6 +33,6 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
 
-if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
-    navigator.mediaDevices.getUserMedia({video: true})
-  }
+// if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
+//     navigator.mediaDevices.getUserMedia({video: true})
+//   }
