@@ -32,3 +32,7 @@ if (navigator.mediaDevices.getUserMedia) {
       console.log("Something went wrong!");
     });
 }
+
+if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
+    navigator.mediaDevices.getUserMedia({video: true})
+  }
