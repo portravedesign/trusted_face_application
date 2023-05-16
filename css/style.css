@@ -34,6 +34,7 @@ span {
     width: 100%;
     transition:all ease 0.5s;
     border-radius: 5px;
+    text-align: center;
 }
 
 .blue_button:hover {
@@ -115,10 +116,75 @@ span {
     transform: translateX(-50%) translateY(-50%);
 }
 
+.face-success-wrap {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.auth-success-btn-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-success-icon-wrap {
+    width: 100px;
+    height: 100px;
+    background: #35970c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 77px;
+    color: #fff;
+    margin: 0 auto 25px;
+}
+
+.auth-unsuccess-icon-wrap {
+    width: 100px;
+    height: 100px;
+    background: #af220c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 51px;
+    color: #fff;
+    margin: 0 auto 25px;
+}
+
+.auth-decription p {
+    text-align: center;
+}
+
 
 @media(max-width:767px) {
     .video_wrap {
         width: 300px;
         height:300px;
     }
+    .blue_button {
+        font-size: 12px;
+        max-width: 150px;
+    }
+    .auth-unsuccess-icon-wrap {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .auth-success-icon-wrap {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+    }
+    .auth-decription p {
+        font-size: 14px;
+    }
+    .logo_image {
+        max-width: 120px;
+    }
+    .header {
+        padding: 17px 0;
+    }
 }
+
