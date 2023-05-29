@@ -127,6 +127,10 @@ span {
     justify-content: space-between;
 }
 
+    .auth-unsuccess-btn-wrap {
+    text-align: center;
+}
+
 .auth-success-icon-wrap {
     width: 100px;
     height: 100px;
