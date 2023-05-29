@@ -5,12 +5,12 @@ var mainSection = document.querySelector(".main_section");
 
 
 
-// window.addEventListener("DOMContentLoaded",function(){
-//     var headerHeight = header.clientHeight;
-//     var windowHeight = window.innerHeight;
-//     var mainSectionHeight = windowHeight - headerHeight;
-//     mainSection.style.minHeight = mainSectionHeight + "px";
-// })
+window.addEventListener("DOMContentLoaded",function(){
+    var headerHeight = header.clientHeight;
+    var windowHeight = window.innerHeight;
+    var mainSectionHeight = windowHeight - headerHeight;
+    mainSection.style.minHeight = mainSectionHeight + "px";
+})
 
 
 // var video = document.getElementById('video');
